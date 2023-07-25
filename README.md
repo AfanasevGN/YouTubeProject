@@ -15,6 +15,6 @@
 1. В терминале ввести git clone https://github.com/microservices-demo/microservices-demo
 2. cd microservices-demo
 3. docker-compose -f deploy/docker-compose/docker-compose.yml up -d
-4. для проверки работоспособности тестового сайта перейти на  http://localhost/ и зарегистрировать учетную запись с именем пользователя afnsw и паролем xplosion-x, остальные данные заполнить произвольно
+4. для проверки работоспособности тестового сайта перейти на  http://localhost/ и зарегистрировать учетную запись с именем пользователя "afnsw" и паролем "xplosion-x" . Остальные данные заполнить произвольно
 5. В момент прекращения работы почистить за собой:  docker-compose -f deploy/docker-compose/docker-compose.yml down
-
+6. Клонировать текущий репозиторий к себе на машину и запустить  YoutubeProject/src/socks/SocksTest/CheckSumTest
